@@ -1,6 +1,5 @@
 body {
     background-color: #e6e3e3;
-    margin: 0px;
 }
 
 header {
@@ -35,23 +34,25 @@ nav a:hover {
     color: white;
 }
 
-.photo1 {
-    border-radius: 50%; 
-    width: 350px; 
-    display: inline-block; 
-    margin: 0px 360px 20px 0px; 
+main {
+    padding: 20px;
+}
+
+.slogan {
+    font-size: 50px; 
+    color: rgb(137, 122, 47);
+    font-style: italic;
+    text-shadow: rgb(176, 175, 175) 3px 2px 0.05em
 }
 
 .title {
     display: block; 
     margin: 10px 10px 50px 10px;
-
     font-weight:bold;
     font-size: 30px;
     color: white;
     background-color: #898989;
     text-align: left;
-
     border-radius: 10px;
     padding: 10px 30px;
 }
@@ -67,6 +68,27 @@ nav a:hover {
     font-size: 40px; 
     box-shadow: 0 2px; 
     color: rgb(137, 122, 47);
+}
+
+.photo1 {
+    border-radius: 50%; 
+    width: 350px; 
+    display: inline-block; 
+    margin: 0px 360px 20px 0px; 
+}
+
+.photo2 {
+    border-radius: 5%; 
+    height: 300px; 
+    display: inline-block; 
+    margin: 0px 50px 20px 0px;
+}
+
+.photo3 {
+    border-radius: 5%; 
+    height: 600px; 
+    display: inline-block; 
+    margin: 0px 50px 20px 0px;
 }
 
 .txt1 {
@@ -107,8 +129,29 @@ nav a:hover {
     margin: 30px;
 }
 
-main {
-    padding: 20px;
+.txt4 {
+    display: inline-block;
+    font-size: 35px;
+    font-weight:bold;
+    font-family:monospace;
+    margin: 0px 45px;
+    color: rgb(137, 122, 47);
+}
+
+.txt5 {
+    text-align: center;
+    font-family:monospace;
+    color: #898989;
+    font-size: 23px;
+}
+
+.text {
+    display: inline-block;
+    width: auto;
+    word-wrap:break-word;
+    margin: 10px 0px 10px 10px;
+    font-size: 25px;
+    color: black;
 }
 
 .card1 {
@@ -143,27 +186,4 @@ main {
 .information {
     text-align: left;
     margin: 20px 60px 20px 30px;
-}
-
-.photo2 {
-    border-radius: 5%; 
-    height: 300px; 
-    display: inline-block; 
-    margin: 0px 50px 20px 0px;
-}
-
-.photo3 {
-    border-radius: 5%; 
-    height: 600px; 
-    display: inline-block; 
-    margin: 0px 50px 20px 0px;
-}
-
-.frc_text {
-    display: inline-block;
-    width: auto;
-    word-wrap:break-word;
-    margin: 10px 0px 10px 10px;
-    font-size: 25px;
-    color: black;
 }
