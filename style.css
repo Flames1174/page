@@ -34,15 +34,15 @@ nav a:hover {
     color: white;
 }
 
-main {
-    padding: 20px;
-}
-
 .slogan {
     font-size: 50px; 
     color: rgb(137, 122, 47);
     font-style: italic;
     text-shadow: rgb(176, 175, 175) 3px 2px 0.05em
+}
+
+main {
+    padding: 20px;
 }
 
 .title {
@@ -139,10 +139,10 @@ main {
 }
 
 .txt5 {
+    font-size: 23px;
     text-align: center;
     font-family:monospace;
     color: #898989;
-    font-size: 23px;
 }
 
 .text {
