@@ -21,7 +21,7 @@ nav {
 a {
     color: black;
     text-decoration: none;
-    font-size: 30px;
+    font-size: 24px;
 }
 
 nav a {
@@ -35,7 +35,7 @@ nav a:hover {
     color: white;
 }
 
-.photo {
+.photo1 {
     border-radius: 50%; 
     width: 350px; 
     display: inline-block; 
@@ -103,7 +103,7 @@ nav a:hover {
     text-align: left;
     border-radius: 10px;
     padding: 10px 30px;
-    height: 330px;
+    height: auto;
     margin: 30px;
 }
 
@@ -142,5 +142,28 @@ main {
 
 .information {
     text-align: left;
-    margin: 20px 60px 20px 90px;
+    margin: 20px 60px 20px 30px;
+}
+
+.photo2 {
+    border-radius: 5%; 
+    height: 300px; 
+    display: inline-block; 
+    margin: 0px 50px 20px 0px;
+}
+
+.photo3 {
+    border-radius: 5%; 
+    height: 600px; 
+    display: inline-block; 
+    margin: 0px 50px 20px 0px;
+}
+
+.frc_text {
+    display: inline-block;
+    width: auto;
+    word-wrap:break-word;
+    margin: 10px 0px 10px 10px;
+    font-size: 25px;
+    color: black;
 }
